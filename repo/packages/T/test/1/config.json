@@ -11,13 +11,13 @@
            "default": "Hello World"
          },
          "cpus": {
-           "description": "CPU shares to allocate to each Chronos instance.",
+           "description": "CPU shares to allocate to each Test instance.",
            "type": "number",
            "minimum": 0.0,
            "default": 1.0
          },
          "instances": {
-           "description": "Number of Chronos instances to run.",
+           "description": "Number of Test instances to run.",
            "type": "integer",
            "minimum": 0,
            "default": 1
@@ -28,10 +28,10 @@
           "default": "/test"
         },
         "mem": {
-          "description": "Memory (MB) to allocate to each Chronos instance.",
+          "description": "Memory (MB) to allocate to each Test instance.",
           "type": "number",
           "minimum": 128.0,
-          "default": 1024.0
+          "default": 512.0
         }
       },
       "required": [

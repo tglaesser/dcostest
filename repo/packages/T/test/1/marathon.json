@@ -4,7 +4,7 @@
   "cpus": {{test.cpus}},
   "cmd": "{{test.msg}}",
   "mem": {{test.mem}},
-  "cmd": "echo {{test.msg}}; sleep 10"
+  "cmd": "echo {{test.msg}}; sleep 10",
   "ports": [
     0
   ],
