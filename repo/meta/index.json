@@ -1,50 +1,15 @@
 {
   "packages":[
     {
-      "currentVersion":"0.2.1",
-      "description":"A distributed free and open-source database with a flexible data model for documents, graphs, and key-values. Build high performance applications using a convenient SQL-like query language or JavaScript extensions.",
-      "framework":true,
-      "name":"arangodb",
-      "tags":[
-        "arangodb",
-        "NoSQL",
-        "database",
-        "framework"
-      ],
-      "versions":{
-        "0.2.0":"0",
-        "0.2.1":"1"
-      }
-    },
-    {
-      "currentVersion":"0.2.1",
+      "currentVersion":"0.0.1",
       "description":"Test project",
       "framework":false,
       "name":"test",
       "tags":[
-        "test",
+        "test"
       ],
       "versions":{
         "0.0.1":"0"
-      }
-    },
-    {
-      "currentVersion":"1.5.0-multi-roles-v2",
-      "description":"Spark is a fast and general cluster computing system for Big Data",
-      "framework":true,
-      "name":"spark",
-      "tags":[
-        "bigdata",
-        "mapreduce",
-        "batch",
-        "analytics"
-      ],
-      "versions":{
-        "1.4.0-SNAPSHOT":"0",
-        "1.4.1":"1",
-        "1.5.0":"2",
-        "1.5.0-db83ac7":"3",
-        "1.5.0-multi-roles-v2":"4"
       }
     }
   ],
