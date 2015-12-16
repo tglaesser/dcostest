@@ -1,6 +1,7 @@
 {
   "type": "object",
   "properties": {
+    "test": {
        "msg": {
          "description": "The msg to show",
          "type": "string",
