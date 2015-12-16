@@ -1,11 +1,10 @@
 {
-  "name": "chronos",
+  "name": "test",
   "version": "2.4.0",
-  "scm": "https://github.com/mesos/chronos.git",
   "maintainer": "support@mesosphere.io",
-  "description": "A fault tolerant job scheduler for Mesos which handles dependencies and ISO8601 based schedules.",
-  "framework": true,
-  "tags": ["cron", "analytics", "batch"],
+  "description": "Test Hello World container.",
+  "framework": false,
+  "tags": ["test"],
   "images": {
     "icon-small": "https://downloads.mesosphere.com/chronos/assets/icon-service-chronos-small.png",
     "icon-medium": "https://downloads.mesosphere.com/chronos/assets/icon-service-chronos-medium.png",

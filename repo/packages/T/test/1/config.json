@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "properties": {
+       "msg": {
+         "description": "The msg to show",
+         "type": "string",
+         "default": "Hello World"
+       },
+       "cpus": {
+         "description": "CPU shares to allocate to each Chronos instance.",
+         "type": "number",
+         "minimum": 0.0,
+         "default": 1.0
+       },
+       "instances": {
+         "description": "Number of Chronos instances to run.",
+         "type": "integer",
+         "minimum": 0,
+         "default": 1
+      },
+      "id": {
+        "description": "Unique identifier for the app consisting of a series of names separated by slashes.",
+        "type": "string",
+        "default": "/test"
+      },
+      "mem": {
+        "description": "Memory (MB) to allocate to each Chronos instance.",
+        "type": "number",
+        "minimum": 128.0,
+        "default": 1024.0
+      },
+    },
+    "required": [
+      "cpus",
+      "msg",
+      "id",
+      "instances",
+      "mem"
+    ]
+    }
+  }
+}
+

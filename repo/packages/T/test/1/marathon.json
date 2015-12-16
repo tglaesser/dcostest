@@ -1,0 +1,22 @@
+{
+  "id": "{{test.id}}",
+  "instances": {{test.instances}},
+  "cpus": {{test.cpus}},
+  "cmd": "{{test.msg}}",
+  "mem": {{test.mem}},
+  "cmd": "echo {{test.msg}}; sleep 10"
+  "ports": [
+    0
+  ],
+  "disk": 0.0,
+  "env": {
+  },
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "mesosphere/inky",
+      "network": "HOST"
+    }
+  },
+  "healthChecks": []
+}
